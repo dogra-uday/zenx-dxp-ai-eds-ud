@@ -15,7 +15,11 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "vertical-selector",
+      "journey-modal",
+      "site-header",
+      "site-footer"
     ]
   },
   {
@@ -38,5 +42,21 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "vertical-selector",
+    "components": []
+  },
+  {
+    "id": "journey-modal",
+    "components": []
+  },
+  {
+    "id": "site-header",
+    "components": []
+  },
+  {
+    "id": "site-footer",
+    "components": []
   }
 ]
