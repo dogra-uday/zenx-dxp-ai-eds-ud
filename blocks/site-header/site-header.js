@@ -1,7 +1,7 @@
 export default function decorate(block) {
   const logoImage = 'https://upload.wikimedia.org/wikipedia/commons/5/53/Zensar_Logo.png';
 
-  const headerImage = 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600';
+  const headerImage = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600';
 
   const heading = 'Industry Verticals';
 
@@ -10,8 +10,7 @@ export default function decorate(block) {
   block.innerHTML = `
     <div class="site-header-wrapper">
       <div class="site-header-banner">
-        Image}"
-          alt="Industry Verticals Banner"
+        ${headerImage} alt="Industry Verticals Banner"
           class="site-header-banner-image"
           loading="eager"
         >
@@ -21,8 +20,6 @@ export default function decorate(block) {
         <img
           src="${logoImage}"
           alt="Zensar Logo"
-          class="site-
-    </div>
+          class="site-header-div>
   `;
 }
-
