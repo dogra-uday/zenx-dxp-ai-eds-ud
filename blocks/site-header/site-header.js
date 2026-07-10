@@ -1,20 +1,28 @@
 export default function decorate(block) {
-const logoImage = '/images/zensar.png';
-  const headerImage = 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1600';
+  const logoImage = 'https://upload.wikimedia.org/wikipedia/commons/5/53/Zensar_Logo.png';
 
-const heading = 'Industry Verticals';
-const subHeading = 'Accelerating Digital Transformation Across Industries';
+  const headerImage = 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600';
+
+  const heading = 'Industry Verticals';
+
+  const subHeading = 'Accelerating Digital Transformation Across Industries';
 
   block.innerHTML = `
     <div class="site-header-wrapper">
       <div class="site-header-banner">
-        <img
-          src="${headerImage}"
-          alt="Header Banner"
+        Image}"
+          alt="Industry Verticals Banner"
           class="site-header-banner-image"
- 
-          alt="Logo"
-          class="site-header-logo"
-/div>
+          loading="eager"
+        >
+      </div>
+
+      <div class="site-header-content">
+        <img
+          src="${logoImage}"
+          alt="Zensar Logo"
+          class="site-
+    </div>
   `;
 }
+
