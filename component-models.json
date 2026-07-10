@@ -171,11 +171,118 @@
     "fields": []
   },
   {
-    "id": "site-header",
-    "fields": []
-  },
-  {
-    "id": "site-footer",
-    "fields": []
-  }
+  "id": "site-header",
+  "fields": [
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "logoText",
+      "label": "Logo Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "logoLink",
+      "label": "Logo Link"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "navItem1Text",
+      "label": "Navigation Item 1"
+    },
+    {
+      "component": "aem-content",
+      "name": "navItem1Link",
+      "label": "Navigation Item 1 Link"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "navItem2Text",
+      "label": "Navigation Item 2"
+    },
+    {
+      "component": "aem-content",
+      "name": "navItem2Link",
+      "label": "Navigation Item 2 Link"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "navItem3Text",
+      "label": "Navigation Item 3"
+    },
+    {
+      "component": "aem-content",
+      "name": "navItem3Link",
+      "label": "Navigation Item 3 Link"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "ctaText",
+      "label": "CTA Button Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "ctaLink",
+      "label": "CTA Button Link"
+    }
+  ]
+},
+{
+  "id": "site-footer",
+  "fields": [
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "companyName",
+      "label": "Company Name"
+    },
+    {
+      "component": "richtext",
+      "name": "footerText",
+      "label": "Footer Description"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "copyright",
+      "label": "Copyright Text"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "footerLink1Text",
+      "label": "Footer Link 1 Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "footerLink1Url",
+      "label": "Footer Link 1 URL"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "footerLink2Text",
+      "label": "Footer Link 2 Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "footerLink2Url",
+      "label": "Footer Link 2 URL"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "footerLink3Text",
+      "label": "Footer Link 3 Text"
+    },
+    {
+      "component": "aem-content",
+      "name": "footerLink3Url",
+      "label": "Footer Link 3 URL"
+    }
+  ]
+}
 ]
