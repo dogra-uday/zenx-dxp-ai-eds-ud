@@ -4,19 +4,20 @@ export default function decorate(block) {
 
   block.innerHTML = `
     <div class="site-header-wrapper">
-      Image}"
+      <img
+        src="${headerImage}"
         alt="Header Banner"
         class="site-header-banner-image"
         loading="eager"
         onerror="this.style.display='none';"
       >
 
-      <div class="site-header-content">
-        <img
-          src="${logoImage}"
-          alt="Zensar Logo"
-          class="site-header-logo"
-          loadings Industries
+      <div class="site-       >
+
+        <h1>Industry Verticals</h1>
+
+        <p>
+          Accelerating Digital Transformation Across Industries
         </p>
       </div>
     </div>
