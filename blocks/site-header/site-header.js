@@ -1,21 +1,22 @@
 export default function decorate(block) {
-  const logoImage = 'content/dam/zenx-dxp-ai-eds-ud/logo.jpg';
-  const headerImage = 'content/dam/zenx-dxp-ai-eds-ud/header-banner.jpg';
+  const logoImage = '/content/dam/zenx-dxp-ai-eds-ud/logo.jpg';
+  const headerImage = '/content/dam/zenx-dxp-ai-eds-ud/header-banner.jpg';
 
   block.innerHTML = `
     <div class="site-header-wrapper">
-      <img
-        src="${headerImage}"
+      Image}"
         alt="Header Banner"
-       }"
+        class="site-header-banner-image"
+        loading="eager"
+        onerror="this.style.display='none';"
+      >
+
+      <div class="site-header-content">
+        <img
+          src="${logoImage}"
           alt="Zensar Logo"
           class="site-header-logo"
-        >
-
-        <h1>Industry Verticals</h1>
-
-        <p>
-          Accelerating Digital Transformation Across Industries
+          loadings Industries
         </p>
       </div>
     </div>
