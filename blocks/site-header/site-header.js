@@ -1,11 +1,9 @@
 export default function decorate(block) {
-  const logoImage = 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=400';
-
+const logoImage = '/images/zensar.png';
   const headerImage = 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1600';
 
-  const heading = 'Indian Bank';
-
-  const subHeading = 'Digital Banking Platform';
+const heading = 'Industry Verticals';
+const subHeading = 'Accelerating Digital Transformation Across Industries';
 
   block.innerHTML = `
     <div class="site-header-wrapper">
