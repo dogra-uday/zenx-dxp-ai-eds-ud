@@ -1,24 +1,22 @@
 export default function decorate(block) {
   const logoImage = '/content/dam/zenx-eds-site/zensar-logo.png';
-
   const headerImage = '/content/dam/zenx-eds-site/header-banner.jpg';
-
-  const heading = 'Industry Verticals';
-
-  const subHeading = 'Accelerating Digital Transformation Across Industries';
 
   block.innerHTML = `
     <div class="site-header-wrapper">
-      <div class="site-header-banner">
-        ${headerImage}
-      </div>
+      <img
+        src="${headerImage}"
+        alt="Header Banner"
+       }"
+          alt="Zensar Logo"
+          class="site-header-logo"
+        >
 
-      <div class="site-header-content">
-        ${logoImage}
+        <h1>Industry Verticals</h1>
 
-        <h1>${heading}</h1>
-
-        <p>${subHeading}</p>
+        <p>
+          Accelerating Digital Transformation Across Industries
+        </p>
       </div>
     </div>
   `;
