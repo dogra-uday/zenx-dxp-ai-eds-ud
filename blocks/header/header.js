@@ -130,7 +130,7 @@ export default async function decorate(block) {
     if (section) section.classList.add(`nav-${c}`);
   });
 
-  const navBrand = nav.querySelector('.nav-brand');
+const navBrand = nav.querySelector('.nav-brand');
 
 if (navBrand) {
   const logoImage =
@@ -139,13 +139,18 @@ if (navBrand) {
 
   if (logoImage) {
     navBrand.innerHTML = `
-      <a href="/" class="site-logoss="site-logo"
-          src="${logoImage}"
+      /
+        Image}"
           alt="Site Logo"
           loading="eager">
       </a>
     `;
-e = '';
+  }
+
+  const brandLink = navBrand.querySelector('.button');
+
+  if (brandLink) {
+    brandLink.className = '';
 
     const container = brandLink.closest('.button-container');
 

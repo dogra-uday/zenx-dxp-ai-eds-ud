@@ -181,11 +181,10 @@
     },
     
       {
-         "component": "reference",
-         "name": "logoImage",
-         "label": "Logo Image"
-      }
-      ,
+  "component": "text",
+  "name": "logoImage",
+  "label": "Logo DAM Path"
+      },
 
     {
       "component": "aem-content",
