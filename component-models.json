@@ -175,68 +175,26 @@
   "fields": [
     {
       "component": "text",
-      "valueType": "string",
-      "name": "logoText",
-      "label": "Logo Text"
-    },
-    
-      {
-  "component": "text",
-  "name": "logoImage",
-  "label": "Logo DAM Path"
-      },
-
-    {
-      "component": "aem-content",
-      "name": "logoLink",
-      "label": "Logo Link"
+      "name": "logoImage",
+      "label": "Logo Image URL"
     },
     {
       "component": "text",
-      "valueType": "string",
-      "name": "navItem1Text",
-      "label": "Navigation Item 1"
-    },
-    {
-      "component": "aem-content",
-      "name": "navItem1Link",
-      "label": "Navigation Item 1 Link"
+      "name": "headerImage",
+      "label": "Header Image URL"
     },
     {
       "component": "text",
-      "valueType": "string",
-      "name": "navItem2Text",
-      "label": "Navigation Item 2"
-    },
-    {
-      "component": "aem-content",
-      "name": "navItem2Link",
-      "label": "Navigation Item 2 Link"
+      "name": "heading",
+      "label": "Heading"
     },
     {
       "component": "text",
-      "valueType": "string",
-      "name": "navItem3Text",
-      "label": "Navigation Item 3"
-    },
-    {
-      "component": "aem-content",
-      "name": "navItem3Link",
-      "label": "Navigation Item 3 Link"
-    },
-    {
-      "component": "text",
-      "valueType": "string",
-      "name": "ctaText",
-      "label": "CTA Button Text"
-    },
-    {
-      "component": "aem-content",
-      "name": "ctaLink",
-      "label": "CTA Button Link"
+      "name": "subHeading",
+      "label": "Sub Heading"
     }
   ]
-},
+}
 {
   "id": "site-footer",
   "fields": [
