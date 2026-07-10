@@ -1,6 +1,6 @@
 export default function decorate(block) {
-  const logoImage = '/content/dam/zenx-eds-site/zensar-logo.png';
-  const headerImage = '/content/dam/zenx-eds-site/header-banner.jpg';
+  const logoImage = 'content/dam/zenx-dxp-ai-eds-ud/logo.jpg';
+  const headerImage = 'content/dam/zenx-dxp-ai-eds-ud/header-banner.jpg';
 
   block.innerHTML = `
     <div class="site-header-wrapper">
