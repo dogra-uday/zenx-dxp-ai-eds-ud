@@ -270,3 +270,20 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+.site-logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  display: block;
+  max-height: 48px;
+  width: auto;
+}
+
+@media (max-width: 899px) {
+  .site-logo {
+    max-height: 36px;
+  }
+}

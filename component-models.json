@@ -179,6 +179,14 @@
       "name": "logoText",
       "label": "Logo Text"
     },
+    
+      {
+         "component": "reference",
+         "name": "logoImage",
+         "label": "Logo Image"
+      }
+      ,
+
     {
       "component": "aem-content",
       "name": "logoLink",

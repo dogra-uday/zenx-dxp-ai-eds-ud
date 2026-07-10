@@ -131,11 +131,29 @@ export default async function decorate(block) {
   });
 
   const navBrand = nav.querySelector('.nav-brand');
-  const brandLink = navBrand.querySelector('.button');
-  if (brandLink) {
-    brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
+
+if (navBrand) {
+  const logoImage =
+    block.dataset.logoImage
+    || block.getAttribute('data-logo-image');
+
+  if (logoImage) {
+    navBrand.innerHTML = `
+      <a href="/" class="site-logoss="site-logo"
+          src="${logoImage}"
+          alt="Site Logo"
+          loading="eager">
+      </a>
+    `;
+e = '';
+
+    const container = brandLink.closest('.button-container');
+
+    if (container) {
+      container.className = '';
+    }
   }
+}
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
