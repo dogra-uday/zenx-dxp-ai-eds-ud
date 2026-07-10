@@ -1,50 +1,22 @@
 export default function decorate(block) {
-  const rows = [...block.children];
+  const logoImage = 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=400';
 
-  const getField = (label) => rows.find(
-    (row) => row.firstElementChild
-      && row.firstElementChild.textContent.trim() === label,
-  )?.children?.[1];
+  const headerImage = 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1600';
 
-  const logo = getField('Logo Image');
-  const banner = getField('Header Image');
-  const heading = getField('Heading');
-  const subHeading = getField('Sub Heading');
+  const heading = 'Indian Bank';
 
-  block.textContent = '';
+  const subHeading = 'Digital Banking Platform';
 
-  const wrapper = document.createElement('div');
-  wrapper.className = 'site-header';
-
-  if (banner) {
-    const bannerContainer = document.createElement('div');
-    bannerContainer.className = 'site-header-banner';
-    bannerContainer.append(banner.cloneNode(true));
-    wrapper.append(bannerContainer);
-  }
-
-  const content = document.createElement('div');
-  content.className = 'site-header-content';
-
-  if (logo) {
-    const logoContainer = document.createElement('div');
-    logoContainer.className = 'site-header-logo';
-    logoContainer.append(logo.cloneNode(true));
-    content.append(logoContainer);
-  }
-
-  if (heading?.textContent?.trim()) {
-    const h1 = document.createElement('h1');
-    h1.textContent = heading.textContent.trim();
-    content.append(h1);
-  }
-
-  if (subHeading?.textContent?.trim()) {
-    const p = document.createElement('p');
-    p.textContent = subHeading.textContent.trim();
-    content.append(p);
-  }
-
-  wrapper.append(content);
-  block.append(wrapper);
+  block.innerHTML = `
+    <div class="site-header-wrapper">
+      <div class="site-header-banner">
+        <img
+          src="${headerImage}"
+          alt="Header Banner"
+          class="site-header-banner-image"
+ 
+          alt="Logo"
+          class="site-header-logo"
+/div>
+  `;
 }
