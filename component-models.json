@@ -171,14 +171,15 @@
     "fields": []
   },
   {
-  "component": "reference",
-  "name": "logoImage",
-  "label": "Logo Image"
-},
-{
-  "component": "reference",
-  "name": "headerImage",
-  "label": "Header Image"
+  {
+  "id": "site-header",
+  "fields": [
+    {
+      "component": "text",
+      "name": "heading",
+      "label": "Heading"
+    }
+  ]
 },
 {
   "id": "site-footer",
