@@ -175,6 +175,16 @@
   "id": "site-header",
   "fields": [
     {
+      "component": "reference",
+      "name": "logoImage",
+      "label": "Logo Image"
+    },
+    {
+      "component": "reference",
+      "name": "headerImage",
+      "label": "Header Image"
+    },
+    {
       "component": "text",
       "name": "heading",
       "label": "Heading"
@@ -183,19 +193,11 @@
       "component": "text",
       "name": "subHeading",
       "label": "Sub Heading"
-    },
-    {
-      "component": "text",
-      "name": "logoImage",
-      "label": "Logo Image"
-    },
-    {
-      "component": "text",
-      "name": "headerImage",
-      "label": "Header Image"
     }
   ]
-},
+}
+,
+ 
 {
   "id": "site-footer",
   "fields": [
