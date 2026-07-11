@@ -1,6 +1,5 @@
 .site-header-wrapper {
   position: relative;
-  width: 100%;
 }
 
 .site-header-banner-image {
@@ -14,46 +13,15 @@
   position: absolute;
   top: 40px;
   left: 40px;
-  z-index: 2;
   color: #fff;
+  z-index: 2;
 }
 
 .site-header-logo {
-  width: 180px;
+  width: 200px;
   height: auto;
   display: block;
   margin-bottom: 20px;
   background: #fff;
-  padding: 8px;
-  border-radius: 4px;
-}
-
-.site-header-content h1 {
-  margin: 0;
-  font-size: 56px;
-  line-height: 1.1;
-}
-
-.site-header-content p {
-  margin-top: 12px;
-  font-size: 22px;
-}
-
-@media (max-width: 768px) {
-  .site-header-content {
-    top: 20px;
-    left: 20px;
-  }
-
-  .site-header-logo {
-    width: 120px;
-  }
-
-  .site-header-content h1 {
-    font-size: 32px;
-  }
-
-  .site-header-content p {
-    font-size: 16px;
-  }
+  padding: 10px;
 }
